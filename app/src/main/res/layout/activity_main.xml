@@ -19,8 +19,64 @@
         android:id="@+id/doButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="28dp" />
+        android:text="ド"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/reButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="レ"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:id="@+id/miButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ミ"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/faButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ファ"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/soButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ソ"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/raButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ラ"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/siButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="シ"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/dohButton"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="ド"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="461dp" />
 
 </android.support.constraint.ConstraintLayout>
