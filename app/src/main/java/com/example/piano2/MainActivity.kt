@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // View要素を変数に代入
+        // View要素を変数に代入する
         val doButton: Button = findViewById(R.id.doButton)
 
         mpDo = MediaPlayer.create(applicationContext, R.raw.pianodo)
