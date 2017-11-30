@@ -18,79 +18,65 @@
     <Button
         android:id="@+id/doButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="ド"
-        app:layout_constraintEnd_toStartOf="@+id/reButton"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_weight="1"/>
 
     <Button
         android:id="@+id/reButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="レ"
-        app:layout_constraintEnd_toStartOf="@+id/miButton"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/doButton" />
+        android:layout_weight="1"
+
+        />
 
     <Button
         android:id="@+id/miButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="ミ"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/reButton"
+        android:layout_weight="1"
         />
 
     <Button
         android:id="@+id/faButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="ファ"
-        app:layout_constraintEnd_toStartOf="@+id/soButton"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_weight="1"
          />
 
     <Button
         android:id="@+id/soButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="ソ"
-        app:layout_constraintEnd_toStartOf="@+id/raButton"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/faButton"
+        android:layout_weight="1"
          />
 
     <Button
         android:id="@+id/raButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="ラ"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/soButton"
+        android:layout_weight="1"
          />
 
     <Button
         android:id="@+id/siButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="シ"
-        app:layout_constraintEnd_toStartOf="@+id/dohButton"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_weight="1"
          />
 
     <Button
         android:id="@+id/dohButton"
         android:layout_width="wrap_content"
-        android:layout_height="46dp"
+        android:layout_height="0dp"
         android:text="ド"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/siButton"
+        android:layout_weight="1"
          />
 
 </android.support.constraint.ConstraintLayout>
