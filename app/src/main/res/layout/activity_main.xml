@@ -19,64 +19,73 @@
         android:id="@+id/doButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="ド"
-        android:layout_weight="1"/>
+        app:layout_constraintBottom_toTopOf="@+id/reButton"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/reButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="レ"
         android:layout_weight="1"
+        android:text="レ"
 
-        />
+        app:layout_constraintBottom_toTopOf="@+id/miButton"
+        app:layout_constraintTop_toBottomOf="@+id/doButton" />
 
     <Button
         android:id="@+id/miButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="ミ"
         android:layout_weight="1"
-        />
+        android:text="ミ"
+        app:layout_constraintBottom_toTopOf="@+id/faButton"
+        app:layout_constraintTop_toBottomOf="@+id/reButton" />
 
     <Button
         android:id="@+id/faButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="ファ"
         android:layout_weight="1"
-         />
+        android:text="ファ"
+        app:layout_constraintBottom_toTopOf="@+id/soButton"
+        app:layout_constraintTop_toBottomOf="@+id/miButton" />
 
     <Button
         android:id="@+id/soButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="ソ"
         android:layout_weight="1"
-         />
+        android:text="ソ"
+        app:layout_constraintBottom_toTopOf="@+id/raButton"
+        app:layout_constraintTop_toBottomOf="@+id/faButton" />
 
     <Button
         android:id="@+id/raButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="ラ"
         android:layout_weight="1"
-         />
+        android:text="ラ"
+        app:layout_constraintBottom_toTopOf="@+id/siButton"
+        app:layout_constraintTop_toBottomOf="@+id/soButton" />
 
     <Button
         android:id="@+id/siButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="シ"
         android:layout_weight="1"
-         />
+        android:text="シ"
+        app:layout_constraintBottom_toTopOf="@+id/dohButton"
+        app:layout_constraintTop_toBottomOf="@+id/raButton" />
 
     <Button
         android:id="@+id/dohButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="ド"
         android:layout_weight="1"
-         />
+        android:text="ド"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siButton" />
 
 </android.support.constraint.ConstraintLayout>
